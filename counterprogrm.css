@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(rgba(149, 107, 1, 0.868),rgba(244, 175, 2, 0.613),rgba(84, 61, 0, 0.868));
+}
+#my-h1{
+    text-align: center;
+    color: rgba(57, 43, 5, 0.704);
+    font-family: cursive;
+    font-size: 3em;
+    padding: 30px;
+    font-weight: 1200;
+    margin-bottom: 50px;
+}
+#my-lable{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+}
+#my-div{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgba(1, 1, 40, 0.511);
+    color: rgb(35, 19, 0);
+    font-size: 1.2em;
+    font-family: cursive;
+    font-weight:bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: rgb(89, 4, 89);
+    color: rgb(250, 247, 247);
+}
+#my-div{
+    height: 600px;
+    width: 500px;
+    margin: 50px;
+    border: 5px solid rgba(81, 56, 1, 0.643);
+    border-radius: 10px;
+}
